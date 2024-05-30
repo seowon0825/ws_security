@@ -52,4 +52,16 @@ public class MyController {
 		return "회원가입 완료됨.";
 	}
 	
+	@RequestMapping("/login")
+	public String loginForm() {
+		
+		return "loginForm";
+	}
+	
+	@RequestMapping("/success")
+	public String success() {
+		
+		return "success";
+	}
+	
 }
